@@ -1,178 +1,264 @@
 # A systematic course about knowledge graph for graduate students, interested researchers and engineers. 
 东南大学《知识图谱》研究生课程  - Southeast University "Knowledge Graph" Graduate Course
+
 时间：春季学期（2月下旬\~5月中旬）  - Time: Spring semester (late February\~mid May)
+
 地点：东南大学九龙湖校区  - Location: Southeast University Jiulong Lake Campus
+
 授课人：汪鹏 - Lecturer: Wang Peng
+
 答疑/讨论/建议：请致信 pwang AT seu.edu.cn Q&A/Discussion/Suggestion: Please write to pwang AT seu.edu.cn
 
-# 课程内容
-## 第1讲 知识图谱概论 （2019-3-1,2019-3-8）
-1.1 知识图谱起源和发展  
-1.2 知识图谱 VS 深度学习  
-1.3 知识图谱 VS 关系数据库 VS 传统专家库  
-1.4 知识图谱本质和核心价值  
-1.5 知识图谱技术体系  
-1.6 典型知识图谱  
-1.7 知识图谱应用场景  
-**课件下载**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-1知识图谱概论A.pdf)   [partB](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-1知识图谱概论B.pdf)   [partC](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-1知识图谱概论C.pdf)
-## 第2讲 知识表示 (2019-3-15)  
-2.1 知识表示概念  
-2.2 知识表示方法  
-+ 语义网络  
-+ 产生式系统  
-+ 框架系统  
-+ 概念图  
-+ 形式化概念分析  
-+ 描述逻辑  
-+ 本体  
-+ 本体语言  
-+ 统计表示学习   
+# 课程内容 - Course content
+## 第1讲 知识图谱概论 （2019-3-1,2019-3-8） - Lecture 1 Introduction to Knowledge Graph (2019-3-1, 2019-3-8)
+1.1 知识图谱起源和发展 - The origin and development of the knowledge graph
 
-**课件下载**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-2知识表示.pdf)
+1.2 知识图谱 VS 深度学习 - Knowledge Graph VS Deep Learning
 
-## 第3讲 知识建模 （2019-3-15，2019-3-22）
-3.1 本体  
-3.2 知识建模方法 
-+ 本体工程   
-+ 本体学习  
-+ 知识建模工具  
-+ 知识建模实践  
+1.3 知识图谱 VS 关系数据库 VS 传统专家库 - Knowledge Graph VS Relational Database VS Traditional Expert Database
 
-**课件下载**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-3知识建模.pdf)
+1.4 知识图谱本质和核心价值 - The essence and core value of knowledge graph
 
-## 第4讲 知识抽取基础:问题和方法（2019-3-22）
-4.1 知识抽取场景  
-4.2 知识抽取挑战  
-4.3 面向结构化数据的知识抽取  
-4.4 面向半结构化数据的知识抽取  
-4.5 面向非机构化数据的知识抽取  
+1.5 知识图谱技术体系 - Knowledge Graph Technology System
 
-**课件下载**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-4知识抽取-问题和方法.pdf)  
+1.6 典型知识图谱 - Typical Knowledge Graph
 
-## 第5讲 知识抽取:数据采集（2019-3-29）
-5.1 数据采集原理和技术
-+ 爬虫原理  
-+ 请求和响应   
-+ 多线程并行爬取   
-+ 反爬机制应对  
-5.2 数据采集实践  
-+ 百科 论坛 社交网络等爬取实践  
+1.7 知识图谱应用场景 - Knowledge Graph Application Scenarios
 
-**课件下载**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-5知识抽取-数据获取.pdf)    
+**课件下载 - Courseware download**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-1知识图谱概论A.pdf)   [partB](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-1知识图谱概论B.pdf)   [partC](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-1知识图谱概论C.pdf)
 
-## 第6讲 知识抽取:实体识别（2019-3-29）
-6.1 实体识别基本概念  
-6.2 基于规则和词典的实体识别方法  
-6.3 基于机器学习的实体识别方法  
-6.4 基于深度学习的实体识别方法  
-6.5 基于半监督学习的实体识别方法  
-6.6 基于迁移学习的实体识别方法  
-6.7 基于预训练的实体识别方法  
+## 第2讲 知识表示 (2019-3-15) - Lecture 2 Knowledge Representation (2019-3-15)
+2.1 知识表示概念 - Knowledge representation concepts
 
-**课件下载**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-6知识抽取-实体识别.pdf)  
+2.2 知识表示方法 - Knowledge representation
 
-## 第7讲 知识抽取:关系抽取（2019-4-19，2019-4-26）
-7.1 关系基本概念  
-7.2 语义关系  
-7.3 关系抽取的特征  
-7.4 关系抽取数据集  
-7.5 基于监督学习的关系抽取方法  
-7.6 基于无监督学习的关系抽取方法  
-7.7 基于远程监督的关系抽取方法  
-7.8 基于深度学习/强化学习的关系抽取方法
++ 语义网络 - Semantic Network
 
-**课件下载**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-7知识抽取-关系抽取.pdf)  
++ 产生式系统 - Production system
 
-## 第8讲 知识抽取:事件抽取（2019-3-29）
-8.1 事件抽取基本概念  
-8.2 基于规则和模板的事件抽取方法  
-8.3 基于机器学习的事件抽取方法  
-8.4 基于深度学习的事件抽取方法  
-8.5 基于知识库的事件抽取方法  
-8.6 基于强化学习的事件抽取方法  
++ 框架系统 - Frame system
 
-**课件下载**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-8知识抽取-事件抽取.pdf)  
++ 概念图  - Concept map
 
-## 第9讲 知识融合（2019-4-28）
-9.1 知识异构  
-9.2 本体匹配  
-9.3 匹配抽取和匹配调谐  
-9.4 实体匹配  
-9.5 大规模实体匹配处理  
-9.6 知识融合应用实例  
++ 形式化概念分析 - Formal conceptual analysis
 
-**课件下载**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-9知识融合.pdf)  
++ 描述逻辑 - Description logic
 
-## 第10讲 知识图谱表示学习（2019-5-5）
-10.1 知识表示学习概念  
-10.2 基于距离的表示学习模型  
-10.3 基于翻译的表示学习模型  
-10.4 基于语义的表示学习模型  
-10.5 融合多源信息的表示学习模型  
-10.6 知识图谱表示学习模型的评测  
-10.7 知识图谱表示学习前沿进展和挑战  
++ 本体 - Ontology
 
-**课件下载**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-10知识图谱表示学习.pdf)  
++ 本体语言 - Ontology language
 
-## 第11讲 知识存储（2019-5-10）
-11.1 知识存储概念  
-11.2 图数据库管理系统、模型、查询语言  
-11.3 RDF数据库管理系统、模型、查询语言  
-11.4 基于关系型数据库的知识存储  
++ 统计表示学习  - Statistical representation learning
 
-**课件下载**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-11知识存储.pdf)  
+**课件下载 - Courseware download**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-2知识表示.pdf)
 
-## 第12讲 基于知识的智能问答（2019-5-10）
-12.1 智能问答基础  
-12.2 问题理解  
-12.3 问题求解  
-12.4 基于模板的知识问答方法  
-12.5 基于语义分析的知识问答方法  
-12.6 基于深度学习的知识问答方法  
-12.7 IBM Watson原理和技术剖析  
-12.8 微软小冰的原理和技术剖析  
+## 第3讲 知识建模 （2019-3-15，2019-3-22） - Lecture 3 Knowledge Modeling (2019-3-15, 2019-3-22)
+3.1 本体 - Ontology
 
-**课件下载**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-12知识问答-微软小冰.pdf)  
+3.2 知识建模方法 - Knowledge modeling method
 
-## 第13讲 实体链接（2019-5-17）
-13.1 实体链接基本概念  
-13.2 基于概率生成模型的实体链接方法  
-13.3 基于主题模型的实体链接方法  
-13.4 基于图的实体链接方法  
-13.5 基于深度学习的实体链接方法  
-13.6 基于无监督的实体链接方法  
++ 本体工程 - Ontology Engineering   
 
-**课件下载**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-13实体链接.pdf)  
++ 本体学习 - Ontology learning
 
-## 第14讲 知识推理（2019-5-17）
-14.1 知识推理基础概念  
-14.2 基于逻辑的知识推理方法  
-14.3 基于统计学习的知识推理方法  
-14.4 基于图的知识推理方法  
-14.4 基于神经网络的知识推理方法  
-14.5 多种方法混合的知识推理方法  
++ 知识建模工具 - Knowledge modeling tool
 
-**课件下载**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-14知识推理.pdf)  
++ 知识建模实践 - Knowledge modeling practice
 
-# 附录A：经典文献选读
+**课件下载 - Courseware download**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-3知识建模.pdf)
 
-## 知识图谱构建
+## 第4讲 知识抽取基础:问题和方法（2019-3-22） - Lecture 4 Basics of Knowledge Extraction: Problems and Methods (2019-3-22)
+4.1 知识抽取场景 - Knowledge Extraction Scenario 
+
+4.2 知识抽取挑战 - Knowledge extraction challenges
+
+4.3 面向结构化数据的知识抽取 - Knowledge extraction for structured data
+
+4.4 面向半结构化数据的知识抽取 - Knowledge extraction for semi-structured data
+
+4.5 面向非机构化数据的知识抽取 - Knowledge extraction for unorganized data
+
+**课件下载 - Courseware download**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-4知识抽取-问题和方法.pdf)  
+
+## 第5讲 知识抽取:数据采集（2019-3-29） - Lecture 5 Knowledge Extraction: Data Collection (2019-3-29)
+5.1 数据采集原理和技术 - Principles and technology of data collection
+
++ 爬虫原理 - Crawler principle
+
++ 请求和响应 - Request and response
+
++ 多线程并行爬取 - Multi-threaded parallel crawling 
+
++ 反爬机制应对 - Anti-climb mechanism response
+
+5.2 数据采集实践 - Data Collection Practice 
+
++ 百科 论坛 社交网络等爬取实践 - Encyclopedia, forum, social network and other crawling practices
+
+**课件下载 - Courseware download**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-5知识抽取-数据获取.pdf)    
+
+## 第6讲 知识抽取:实体识别（2019-3-29） - Lecture 6 Knowledge Extraction: Entity Recognition (2019-3-29)
+6.1 实体识别基本概念 - Basic concepts of entity recognition
+
+6.2 基于规则和词典的实体识别方法 - Entity recognition method based on Rules and Dictionaries
+
+6.3 基于机器学习的实体识别方法 - Entity recognition method based on Machine Learning
+
+6.4 基于深度学习的实体识别方法 - Entity recognition method based on Deep Learning
+
+6.5 基于半监督学习的实体识别方法 - Entity recognition method based on Semi-Supervised Learning
+
+6.6 基于迁移学习的实体识别方法 - Entity recognition method based on Transfer Learning
+
+6.7 基于预训练的实体识别方法 - Entity recognition method based on Pre-training
+
+**课件下载 - Courseware download**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-6知识抽取-实体识别.pdf)  
+
+## 第7讲 知识抽取:关系抽取（2019-4-19，2019-4-26） - Lecture 7 Knowledge Extraction: Relation Extraction (2019-4-19, 2019-4-26)
+7.1 关系基本概念 - Basic Concepts of Relationship
+
+7.2 语义关系 - Semantic relations
+
+7.3 关系抽取的特征 - Features of Relation extraction
+
+7.4 关系抽取数据集 - Relational extraction Dataset
+
+7.5 基于监督学习的关系抽取方法 - Relation extraction method based on Supervised Learning
+
+7.6 基于无监督学习的关系抽取方法 - Relation extraction method based on Unsupervised Learning
+
+7.7 基于远程监督的关系抽取方法 - Relation extraction method based on Remote Supervision
+
+7.8 基于深度学习/强化学习的关系抽取方法 - Relation extraction method based on Deep Learning/ Reinforcement Learning
+
+**课件下载 - Courseware download**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-7知识抽取-关系抽取.pdf)  
+
+## 第8讲 知识抽取:事件抽取（2019-3-29） - Lecture 8 Knowledge Extraction: Event Extraction (2019-3-29)
+8.1 事件抽取基本概念  - Basic concepts of Event Extraction
+
+8.2 基于规则和模板的事件抽取方法  - Event extraction method based on Rules and Templates
+
+8.3 基于机器学习的事件抽取方法  - Event extraction method based on Machine Learning
+
+8.4 基于深度学习的事件抽取方法  - Event extraction method based on Deep Learning
+
+8.5 基于知识库的事件抽取方法  - Event extraction method based on Knowledge Base
+
+8.6 基于强化学习的事件抽取方法 - Event extraction method based on Reinforcement Learning
+
+**课件下载 - Courseware download**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-8知识抽取-事件抽取.pdf)  
+
+## 第9讲 知识融合（2019-4-28） - Lecture 9 Knowledge Fusion (2019-4-28)
+9.1 知识异构 - Knowledge Heterogeneity
+
+9.2 本体匹配 - Ontology matching
+
+9.3 匹配抽取和匹配调谐 - Matching extraction and matching tuning
+
+9.4 实体匹配 - Entity matching
+
+9.5 大规模实体匹配处理 - Large-scale entity matching processing
+
+9.6 知识融合应用实例 - Knowledge Fusion Application Examples
+
+**课件下载 - Courseware download**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-9知识融合.pdf)  
+
+## 第10讲 知识图谱表示学习（2019-5-5） - Lecture 10 Knowledge Graph Represents Learning (2019-5-5)
+10.1 知识表示学习概念 - Knowledge Represents Learning Concept
+
+10.2 基于距离的表示学习模型 - Distance-based representation learning model
+
+10.3 基于翻译的表示学习模型 - Representation learning model based on translation
+
+10.4 基于语义的表示学习模型 - Semantic-based representation learning model
+
+10.5 融合多源信息的表示学习模型 - Representation learning model fusing multi-source information
+
+10.6 知识图谱表示学习模型的评测 - The knowledge graph represents the evaluation of the learning model
+
+10.7 知识图谱表示学习前沿进展和挑战 - The knowledge graph represents the frontier progress and challenges of learning
+
+**课件下载 - Courseware download**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-10知识图谱表示学习.pdf)  
+
+## 第11讲 知识存储（2019-5-10） - Lecture 11 Knowledge Storage (2019-5-10)
+11.1 知识存储概念  - Knowledge storage concept
+
+11.2 图数据库管理系统、模型、查询语言  - Graph database management system, model, query language
+
+11.3 RDF数据库管理系统、模型、查询语言  - RDF database management system, model, query language
+
+11.4 基于关系型数据库的知识存储  - Knowledge storage based on relational database
+
+**课件下载 - Courseware download**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-11知识存储.pdf)  
+
+## 第12讲 基于知识的智能问答（2019-5-10）- Lecture 12 Knowledge-based intelligent question and answer (2019-5-10)
+12.1 智能问答基础  - Basics of Intelligent Q&A
+
+12.2 问题理解 - Problem understanding
+
+12.3 问题求解 - Problem solving
+
+12.4 基于模板的知识问答方法 - Knowledge question and answer method based on template
+
+12.5 基于语义分析的知识问答方法 - Knowledge question answering method based on semantic analysis
+
+12.6 基于深度学习的知识问答方法 - Knowledge question answering method based on deep learning
+
+12.7 IBM Watson原理和技术剖析 - Analysis of IBM Watson Principle and Technology
+
+12.8 微软小冰的原理和技术剖析 - Analysis of the principle and technology of Microsoft XiaoIce
+
+**课件下载 - Courseware download**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-12知识问答-微软小冰.pdf)  
+
+## 第13讲 实体链接（2019-5-17） - Lecture 13 Entity Links (2019-5-17)
+13.1 实体链接基本概念  - Basic Concepts of Entity Links
+
+13.2 基于概率生成模型的实体链接方法 - Entity link method based on probabilistic generative model
+
+13.3 基于主题模型的实体链接方法 - Entity Linking Method Based on Topic Model
+
+13.4 基于图的实体链接方法 - Entity Linking Method Based on Graph
+
+13.5 基于深度学习的实体链接方法 - Entity Linking Method Based on Deep Learning
+
+13.6 基于无监督的实体链接方法 - Unsupervised entity linking method
+
+**课件下载 - Courseware download**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-13实体链接.pdf)  
+
+## 第14讲 知识推理（2019-5-17） Lecture 14 Knowledge Reasoning (2019-5-17)
+14.1 知识推理基础概念  - Basic Concepts of Knowledge Reasoning
+
+14.2 基于逻辑的知识推理方法 - Knowledge reasoning method based on logic
+
+14.3 基于统计学习的知识推理方法 - Knowledge reasoning method based on statistical learning
+
+14.4 基于图的知识推理方法 - Graph-based knowledge reasoning method
+
+14.4 基于神经网络的知识推理方法 - Knowledge reasoning method based on neural network
+
+14.5 多种方法混合的知识推理方法 - Knowledge reasoning method with a mixture of multiple methods
+
+**课件下载 - Courseware download**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-14知识推理.pdf)  
+
+# 附录A：经典文献选读 - Appendix A: Selected Readings of Classic Literature
+
+## 知识图谱构建 - Knowledge graph construction
 1. Dong X, Gabrilovich E, Heitz G, et al. [Knowledge vault: A web-scale approach to probabilistic knowledge fusion](https://ai.google/research/pubs/pub45634.pdf). KDD2014: 601-610.  
-1. Suchanek F M, Kasneci G, Weikum G. [Yago: a core of semantic knowledge](http://www2007.wwwconference.org/papers/paper391.pdf). WWW2007: 697-706.  
-1. Hoffart J, Suchanek F M, Berberich K, et al. [YAGO2: A spatially and temporally enhanced knowledge base from Wikipedia](https://people.mpi-inf.mpg.de/~kberberi/publications/2013-ai.pdf). Artificial Intelligence, 2013, 194: 28-61.  
-1. Navigli R, Ponzetto S P. [BabelNet: The automatic construction, evaluation and application of a wide-coverage multilingual semantic network](http://web.informatik.uni-mannheim.de/ponzetto/pubs/navigli12b.pdf). Artificial Intelligence, 2012, 193: 217-250.  
-1. Auer S, Bizer C, Kobilarov G, et al. [Dbpedia: A nucleus for a web of open data](http://editthis.info/images/swim/d/d8/Dbpedia_-_open_data.pdf). ISWC2007: 722-735.  
-1. Mitchell T, Cohen W, Hruschka E, et al. [Never-ending learning](https://dl.acm.org/ft_gateway.cfm?id=3191513&type=pdf). Communications of the ACM, 2018, 61(5): 103-115. [earlier work](https://www.aaai.org/ocs/index.php/AAAI/AAAI10/paper/viewFile/1879/2201)  
-1. Nguyen, Dat Ba, et al. [Query-driven on-the-fly knowledge base construction.](http://orbilu.uni.lu/bitstream/10993/34035/1/p66-nguyen.pdf) Proceedings of the VLDB Endowment 11.1 (2017): 66-79.  
-1. Speer, Robert, Joshua Chin, and Catherine Havasi. [Conceptnet 5.5: An open multilingual graph of general knowledge](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/14972/14051). AAAI2017.  
+2. Suchanek F M, Kasneci G, Weikum G. [Yago: a core of semantic knowledge](http://www2007.wwwconference.org/papers/paper391.pdf). WWW2007: 697-706.  
+3. Hoffart J, Suchanek F M, Berberich K, et al. [YAGO2: A spatially and temporally enhanced knowledge base from Wikipedia](https://people.mpi-inf.mpg.de/~kberberi/publications/2013-ai.pdf). Artificial Intelligence, 2013, 194: 28-61.  
+4. Navigli R, Ponzetto S P. [BabelNet: The automatic construction, evaluation and application of a wide-coverage multilingual semantic network](http://web.informatik.uni-mannheim.de/ponzetto/pubs/navigli12b.pdf). Artificial Intelligence, 2012, 193: 217-250.  
+5. Auer S, Bizer C, Kobilarov G, et al. [Dbpedia: A nucleus for a web of open data](http://editthis.info/images/swim/d/d8/Dbpedia_-_open_data.pdf). ISWC2007: 722-735.  
+6. Mitchell T, Cohen W, Hruschka E, et al. [Never-ending learning](https://dl.acm.org/ft_gateway.cfm?id=3191513&type=pdf). Communications of the ACM, 2018, 61(5): 103-115. [earlier work](https://www.aaai.org/ocs/index.php/AAAI/AAAI10/paper/viewFile/1879/2201)  
+7. Nguyen, Dat Ba, et al. [Query-driven on-the-fly knowledge base construction.](http://orbilu.uni.lu/bitstream/10993/34035/1/p66-nguyen.pdf) Proceedings of the VLDB Endowment 11.1 (2017): 66-79.  
+8. Speer, Robert, Joshua Chin, and Catherine Havasi. [Conceptnet 5.5: An open multilingual graph of general knowledge](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/14972/14051). AAAI2017.  
 
 
-## 知识表示和建模
+## 知识表示和建模 - Knowledge representation and modeling
 1. Sowa J F. [Knowledge representation: logical, philosophical, and computational foundations](https://www.aclweb.org/anthology/J01-2006.pdf). 1999.  
 2. Noy N F, McGuinness D L. [Ontology Development 101: A Guide to Creating Your First Ontology](http://ftp.ksl.stanford.edu/people/dlm/papers/ontology-tutorial-noy-mcguinness.pdf). [another version](http://www.corais.org/sites/default/files/ontology_development_101_aguide_to_creating_your_first_ontology.pdf) 
 
-## 知识抽取
-* **信息抽取**
+## 知识抽取 - Knowledge extraction
+* **信息抽取 - Information extraction**
 1. Etzioni O, Cafarella M, Downey D, et al. [Web-scale information extraction in knowitall:(preliminary results)](http://www2004.org/proceedings/docs/1p100.pdf).WWW2004: 100-110.  
 2. Banko M, Cafarella M J, Soderland S, et al. [Open information extraction from the web](https://www.aaai.org/Papers/IJCAI/2007/IJCAI07-429.pdf). IJCAI2007, 7: 2670-2676.  
 3. Sarawagi S. [Information extraction](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.442.2007&rep=rep1&type=pdf). Foundations and Trends® in Databases, 2008, 1(3): 261-377.  
@@ -180,7 +266,7 @@
 4. Fan J, Kalyanpur A, Gondek D C, et al. [Automatic knowledge extraction from documents](http://brenocon.com/watson_special_issue/05%20automatic%20knowledge%20extration.pdf). IBM Journal of Research and Development, 2012, 56(3.4): 5: 1-5: 10.  
 5. Hearst M A. [Automatic acquisition of hyponyms from large text corpora](http://www.aclweb.org/anthology/C92-2082). ACL1992: 539-545.  
 
-* **实体识别** 
+* **实体识别 - Entity recognition** 
 1. Nadeau D, Sekine S. [A survey of named entity recognition and classification](https://www.jbe-platform.com/content/journals/10.1075/li.30.1.03nad). Lingvisticae Investigationes, 2007, 30(1): 3-26.  
 2. Lample G, Ballesteros M, Subramanian S, et al. [Neural architectures for named entity recognition](https://arxiv.org/pdf/1603.01360.pdf). NAACL-HLT 2016.  
 3. Huang Z, Xu W, Yu K. [Bidirectional LSTM-CRF models for sequence tagging](https://arxiv.org/pdf/1508.01991.pdf). arXiv preprint arXiv:1508.01991, 2015.  
@@ -195,7 +281,7 @@
 12. Habibi M, Weber L, Neves M, et al. [Deep learning with word embeddings improves biomedical named entity recognition](https://academic.oup.com/bioinformatics/article/33/14/i37/3953940). Bioinformatics, 2017, 33(14): i37-i48.  
 
 
-* **关系抽取**  
+* **关系抽取 - Relation extraction**  
 1. Wang C, Kalyanpur A, Fan J, et al. [Relation extraction and scoring in DeepQA](http://brenocon.com/watson_special_issue/09%20relation%20extraction%20and%20scoring.pdf). IBM Journal of Research and Development, 2012, 56(3.4): 9: 1-9: 12.  
 2. Socher R, Huval B, Manning C D, et al. [Semantic compositionality through recursive matrix-vector spaces](https://www.aclweb.org/anthology/D12-1110)[C]//EMNLP, 2012: 1201-1211.
 
@@ -231,14 +317,14 @@
 
 18. Ren X, Wu Z, He W, et al. [Cotype: Joint extraction of typed entities and relations with knowledge bases](https://www.ijcai.org/proceedings/2018/0620.pdf)[C]//Proceedings of the 26th International Conference on World Wide Web. International World Wide Web Conferences Steering Committee, 2017: 1015-1024.
 
-* **事件抽取**  
+* **事件抽取 - Event extraction**  
 1. Chen Y, Xu L, Liu K, et al. [Event extraction via dynamic multi-pooling convolutional neural networks](http://www.aclweb.org/anthology/P15-1017). ACL2015, 1: 167-176.  
 2. Nguyen T H, Grishman R. [Event detection and domain adaptation with convolutional neural networks](http://www.aclweb.org/anthology/P15-2060). ACL2015, 2: 365-371.  
 3. Hogenboom F, Frasincar F, Kaymak U, et al. [An overview of event extraction from text](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.369.7040&rep=rep1&type=pdf). DeRiVE2011.  
 4. Narasimhan K, Yala A, Barzilay R. [Improving information extraction by acquiring external evidence with reinforcement learning](https://arxiv.org/pdf/1603.07954.pdf). EMNLP2016.  
 5. Nguyen T H, Cho K, Grishman R. [Joint event extraction via recurrent neural networks](http://www.aclweb.org/anthology/N16-1034). NAACL2016: 300-309.  
 
-## 知识融合  
+## 知识融合 - Knowledge fusion
 1. Shvaiko P, Euzenat J. [Ontology matching: state of the art and future challenges](https://hal.inria.fr/hal-00917910/document). IEEE Transactions on knowledge and data engineering, 2013, 25(1): 158-176.  
 2. Noy N F, Musen M A. [Algorithm and tool for automated ontology merging and alignment](https://www.aaai.org/Papers/AAAI/2000/AAAI00-069.pdf). AAAI2000.  
 3. Do H H, Rahm E. [COMA: a system for flexible combination of schema matching approaches](http://www.vldb.org/conf/2002/S17P03.pdf).VLDB2002: 610-621.  
@@ -261,7 +347,7 @@
 20.  Hoffart, Johannes, et al. [Robust disambiguation of named entities in text.](https://www.aclweb.org/anthology/D11-1072) Proceedings of the Conference on Empirical Methods in Natural Language Processing. Association for Computational Linguistics, 2011.  
 
  
-## 知识图谱嵌入  
+## 知识图谱嵌入 - Knowledge Graph Embedding 
 * **---Review---**  
 1. Wang Q, Mao Z, Wang B, et al. [Knowledge graph embedding: A survey of approaches and applications](http://download.xuebalib.com/3at6CEQL3eBi.pdf). IEEE Transactions on Knowledge and Data Engineering, 2017, 29(12): 2724-2743.  
 2. 刘知远, 孙茂松, 林衍凯, 等. [知识表示学习研究进展](http://crad.ict.ac.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=3099). 计算机研究与发展, 2016, 53(2): 247-261.  
@@ -337,7 +423,7 @@ https://www.aclweb.org/anthology/D14-1167). EMNLP. 2014: 1591-1601.
 * **---Multi-source Information Fusion Models(Graph Structure)---** 
 43. Feng J, Huang M, Yang Y. [GAKE: graph aware knowledge embedding](https://aclanthology.info/pdf/C/C16/C16-1062.pdf). COLING. 2016: 641-651. (**GAKE**)  
 
-## 知识推理/知识挖掘  
+## 知识推理/知识挖掘 - Knowledge reasoning/knowledge mining
 1. Nickel M, Tresp V, Kriegel H P. [A Three-Way Model for Collective Learning on Multi-Relational Data](http://www.cip.ifi.lmu.de/~nickel/data/slides-icml2011.pdf). ICML2011: 809-816.  
 2. Socher R, Chen D, Manning C D, et al. [Reasoning with neural tensor networks for knowledge base completion](https://papers.nips.cc/paper/5028-reasoning-with-neural-tensor-networks-for-knowledge-base-completion.pdf). NIPS2013: 926-934.  
 3. Lao N, Cohen W W. [Relational retrieval using a combination of path-constrained random walks](https://link.springer.com/content/pdf/10.1007/s10994-010-5205-8.pdf). Machine learning, 2010, 81(1): 53-67.  
@@ -355,7 +441,7 @@ https://www.aclweb.org/anthology/D14-1167). EMNLP. 2014: 1591-1601.
 15. Yang F , Yang Z , Cohen W W . [Differentiable Learning of Logical Rules for Knowledge Base Reasoning[J]](https://arxiv.org/pdf/1702.08367.pdf). 2017.  
 
 
-## 实体链接
+## 实体链接 - Entity link
 1. Zhang W, Su J, Tan C L, et al.[ Entity linking leveraging: automatically generated annotation[C]](https://www.aclweb.org/anthology/C10-1145)// Proceedings of the 23rd International Conference on Computational Linguistics. Stroudsburg: Association for Computational Linguistics, 2010: 1290-1298.  
 2. Anastácio I, Martins B, Calado P. [Supervised learning for linking named entities to knowledge base entries[C]](https://tac.nist.gov//publications/2011/participant.papers/dmir_inescid.proceedings.pdf)// Proceedings of TAC. Gaithersburg: NIST, 2011: 1-12.  
 3. Francis-Landau M, Durrett G, Klein D. [Capturing semantic similarity for entity linking with convolutional neural networks[C]](https://arxiv.org/pdf/1604.00734.pdf)
@@ -366,7 +452,7 @@ Proceedings of the 2016 Conference of the North American Chapter of the Associat
 7. Guo Z, Barbosa D. [Robust entity linking via random walks[C]](https://dl.acm.org/citation.cfm?id=2661887)//Proceedings of the 23rd ACM International Conference on Conference on Information and Knowledge Management. New York:ACM Press, 2014: 499-508.  
 
 
-## 知识存储/知识查询
+## 知识存储/知识查询 - Knowledge storage/knowledge query
 1. Bornea M A, Dolby J, Kementsietsidis A, et al. [Building an efficient RDF store over a relational database](https://www.researchgate.net/profile/Patrick_Dantressangle/publication/262162010_Building_an_efficient_RDF_store_over_a_relational_database/links/54f718680cf210398e9184bc/Building-an-efficient-RDF-store-over-a-relational-database.pdf). SIGMOD2013: 121-132.  
 2. Huang J, Abadi D J, Ren K. [Scalable SPARQL querying of large RDF graphs](http://www.cs.umd.edu/~abadi/papers/sw-graph-scale.pdf). Proceedings of the VLDB Endowment, 2011, 4(11): 1123-1134.  
 3. Zou L, Özsu M T, Chen L, et al. [gStore: a graph-based SPARQL query engine](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.386.7427&rep=rep1&type=pdf). The VLDB Journal—The International Journal on Very Large Data Bases, 2014, 23(4): 565-590.  
@@ -386,7 +472,7 @@ Proceedings of the 2016 Conference of the North American Chapter of the Associat
 14. Weiss C, Karras P, Bernstein A. [Hexastore: sextuple indexing for semantic web data management](http://people.csail.mit.edu/tdanford/6830papers/weiss-hexastore.pdf)[J]. Proceedings of the VLDB Endowment, 2008, 1(1): 1008-1019.  
 15. Neumann T, Weikum G. [The RDF-3X engine for scalable management of RDF data](https://pure.mpg.de/rest/items/item_1324253/component/file_1324252/content)[J]. The VLDB Journal—The International Journal on Very Large Data Bases, 2010, 19(1): 91-113.  
 
-## 人机交互  
+## 人机交互 - Human-computer interaction 
 1. Ferrucci D A. [Introduction to “this is watson”](https://ieeexplore.ieee.org/abstract/document/6177724/). IBM Journal of Research and Development, 2012, 56(3.4): 1:1-1:15.  
 2. Lally A, Prager J M, McCord M C, et al. [Question analysis: How Watson reads a clue](http://www.patwardhans.net/papers/LallyEtAl12.pdf). IBM Journal of Research and Development, 2012, 56(3.4): 2: 1-2: 14.  
 3. Zhou H, Young T, Huang M, et al. [Commonsense Knowledge Aware Conversation Generation with Graph Attention](https://www.ijcai.org/proceedings/2018/0643.pdf). IJCAI. 2018: 4623-4629.  
@@ -398,7 +484,7 @@ Proceedings of the 2016 Conference of the North American Chapter of the Associat
 9. Graves A. [Generating sequences with recurrent neural networks](https://arxiv.org/abs/1308.0850). arXiv preprint arXiv:1308.0850, 2013.  
 
 
-# 附录B：最新进展论文选读(近1年内)
+# 附录B：最新进展论文选读(近1年内) - Appendix B: Selected Readings of Latest Progress Papers (within the past 1 year)
 1. Bhatia S, Dwivedi P, Kaur A. That’s Interesting, Tell Me More! [Finding Descriptive Support Passages for Knowledge Graph Relationships](http://sumitbhatia.net/papers/iswc18.pdf). ISWC2018: 250-267. (Best Paper)  
 2. Soulet A, Giacometti A, Markhoff B, et al. [Representativeness of Knowledge Bases with the Generalized Benford’s Law](https://a3nm.net/work/seminar/slides/20181115-soulet.pdf). ISWC2018: 374-390.  
 3. Wang M, Wang R, Liu J, et al. [Towards Empty Answers in SPARQL: Approximating Querying with RDF Embedding](https://link.springer.com/chapter/10.1007/978-3-030-00671-6_30). ISWC2018: 513-529.  
@@ -424,20 +510,20 @@ Proceedings of the 2016 Conference of the North American Chapter of the Associat
 23. Cao, Yixin, et al. [Unifying Knowledge Graph Learning and Recommendation: Towards a Better Understanding of User Preferences.](https://arxiv.org/pdf/1902.06236) The World Wide Web Conference. ACM, 2019. [code](https://github.com/TaoMiner/joint-kg-recommender)  
 24. Rajarshi Bhowmik, Gerard de Melo. [Be Concise and Precise: Synthesizing Open-Domain Entity Descriptions from Facts.] (https://arxiv.org/pdf/1904.07391) The World Wide Web Conference. ACM, 2019.  
 
-* **---实体识别(ACL)---** 
+* **---实体识别(ACL) - Entity recognition (ACL)---** 
 23. Parvez M R, Chakraborty S, Ray B, et al. [Building language models for text with named entities](https://arxiv.org/pdf/1805.04836.pdf). arXiv preprint arXiv:1805.04836, 2018.  
 24. Lin Y, Yang S, Stoyanov V, et al. [A multi-lingual multi-task architecture for low-resource sequence labeling](http://www.aclweb.org/anthology/P18-1074). Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2018, 1: 799-809.  
 25. Xu H, Liu B, Shu L, et al. [Double embeddings and cnn-based sequence labeling for aspect extraction](https://arxiv.org/pdf/1805.04601.pdf). arXiv preprint arXiv:1805.04601, 2018.  
 26. Ye Z X, Ling Z H. [Hybrid semi-markov crf for neural sequence labeling](https://arxiv.org/pdf/1805.03838.pdf). arXiv preprint arXiv:1805.03838, 2018.  
 27. Yang J, Zhang Y. [Ncrf++: An open-source neural sequence labeling toolkit](https://arxiv.org/pdf/1806.05626.pdf). arXiv preprint arXiv:1806.05626, 2018.  
 
-* **---实体识别(NAACL)---** 
+* **---实体识别(NAACL) - Entity recognition (NAACL)---** 
 28. Ju M, Miwa M, Ananiadou S. [A neural layered model for nested named entity recognition](http://www.aclweb.org/anthology/N18-1131). Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers). 2018, 1: 1446-1459.  
 29. Wang Z, Qu Y, Chen L, et al. [Label-aware double transfer learning for cross-specialty medical named entity recognition](https://arxiv.org/pdf/1804.09021.pdf). NAACL2018.  
 30. Moon S, Neves L, Carvalho V. [Multimodal named entity recognition for short social ../media posts](https://arxiv.org/pdf/1802.07862.pdf). NAACL2018.  
 31. Katiyar A, Cardie C. [Nested named entity recognition revisited](http://www.aclweb.org/anthology/N18-1079). NAACL2018: 861-871.
 
-* **---实体识别(EMNLP)---** 
+* **---实体识别(EMNLP) - Entity recognition (EMNLP)---** 
 32. Cao P, Chen Y, Liu K, et al. [Adversarial Transfer Learning for Chinese Named Entity Recognition with Self-Attention Mechanism](http://www.aclweb.org/anthology/D18-1017).EMNLP2018: 182-192.  
 33. Xie J, Yang Z, Neubig G, et al. [Neural cross-lingual named entity recognition with minimal resources](https://arxiv.org/pdf/1808.09861.pdf). EMNLP2018.  
 34. Lin B Y, Lu W. [Neural adaptation layers for cross-domain named entity recognition](https://arxiv.org/pdf/1810.06368.pdf). EMNLP2018.  
@@ -446,7 +532,7 @@ Proceedings of the 2016 Conference of the North American Chapter of the Associat
 37. Sohrab M G, Miwa M. [Deep Exhaustive Model for Nested Named Entity Recognition](http://www.aclweb.org/anthology/D18-1309).EMNLP2018: 2843-2849.  
 38. Yu X, Mayhew S, Sammons M, et al. [On the Strength of Character Language Models for Multilingual Named Entity Recognition](https://arxiv.org/pdf/1809.05157.pdf). EMNLP2018.  
 
-* **---实体识别(COLING)---** 
+* **---实体识别(COLING) - Entity recognition (COLING)---** 
 39. Mai K, Pham T H, Nguyen M T, et al. [An empirical study on fine-grained named entity recognition](http://www.aclweb.org/anthology/C18-1060). Proceedings of the 27th International Conference on Computational Linguistics. 2018: 711-722.  
 40. Nagesh A, Surdeanu M. [An Exploration of Three Lightly-supervised Representation Learning Approaches for Named Entity Classification](http://www.aclweb.org/anthology/C18-1196). Proceedings of the 27th International Conference on Computational Linguistics. 2018: 2312-2324.  
 41. Bhutani N, Qian K, Li Y, et al. [Exploiting Structure in Representation of Named Entities using Active Learning](http://www.aclweb.org/anthology/C18-1058). Proceedings of the 27th International Conference on Computational Linguistics. 2018: 687-699.  
@@ -455,7 +541,7 @@ Proceedings of the 2016 Conference of the North American Chapter of the Associat
 44. Chen L, Moschitti A. [Learning to Progressively Recognize New Named Entities with Sequence to Sequence Models](http://www.aclweb.org/anthology/C18-1185). Proceedings of the 27th International Conference on Computational Linguistics. 2018: 2181-2191.  
 45. Ghaddar A, Langlais P. [Robust lexical features for improved neural network named-entity recognition](https://arxiv.org/pdf/1806.03489.pdf). COLING2018.  
 
-* **---事件抽取(ACL)---** 
+* **---事件抽取(ACL) - Event extraction (ACL)---** 
 46. Choubey P K, Huang R. [Improving Event Coreference Resolution by Modeling Correlations between Event Coreference Chains and Document Topic Structures](http://www.aclweb.org/anthology/P18-1045).Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2018, 1: 485-495.  
 47. Lin H, Lu Y, Han X, et al. [Nugget Proposal Networks for Chinese Event Detection](https://arxiv.org/pdf/1805.00249.pdf). ACL2018.  
 48. Huang L, Ji H, Cho K, et al. [Zero-shot transfer learning for event extraction](https://arxiv.org/pdf/1707.01066.pdf). ACL2017.  
@@ -463,23 +549,23 @@ Proceedings of the 2016 Conference of the North American Chapter of the Associat
 50. Zhao Y, Jin X, Wang Y, et al. [Document embedding enhanced event detection with hierarchical and supervised attention](http://www.aclweb.org/anthology/P18-2066). Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers). 2018, 2: 414-419.  
 51. Yang H, Chen Y, Liu K, et al. [DCFEE: A Document-level Chinese Financial Event Extraction System based on Automatically Labeled Training Data](http://www.aclweb.org/anthology/P18-4009). ACL2018, System Demonstrations, 2018: 50-55.  
 
-* **---事件抽取(NAACL)---** 
+* **---事件抽取(NAACL) - Event extraction (NAACL)---** 
 52. Ferguson J, Lockard C, Weld D S, et al. [Semi-Supervised Event Extraction with Paraphrase Clusters](https://arxiv.org/pdf/1808.08622.pdf). ACL2018.  
 
-* **---事件抽取(EMNLP)---** 
+* **---事件抽取(EMNLP) - Event extraction (EMNLP)---** 
 53. Orr J W, Tadepalli P, Fern X. [Event Detection with Neural Networks: A Rigorous Empirical Evaluation](https://arxiv.org/pdf/1808.08504.pdf). EMNLP2018.  
 54. Liu S, Cheng R, Yu X, et al. [Exploiting Contextual Information via Dynamic Memory Network for Event Detection](https://arxiv.org/pdf/1810.03449.pdf). EMNLP2018.  
 55. Liu X, Luo Z, Huang H. [Jointly multiple events extraction via attention-based graph information aggregation](https://arxiv.org/pdf/1809.09078.pdf). EMNLP2018.  
 56. Chen Y, Yang H, Liu K, et al. [Collective Event Detection via a Hierarchical and Bias Tagging Networks with Gated Multi-level Attention Mechanisms](http://www.aclweb.org/anthology/D18-1158). EMNLP2018: 1267-1276.  
 57. Lu W, Nguyen T H. [Similar but not the Same: Word Sense Disambiguation Improves Event Detection via Neural Representation Matching](http://www.aclweb.org/anthology/D18-1517). Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing. 2018: 4822-4828.
 
-* **---事件抽取(COLING)---** 
+* **---事件抽取(COLING) - Event extraction (COLING)---** 
 58. Araki J, Mitamura T. [Open-Domain Event Detection using Distant Supervision](http://www.aclweb.org/anthology/C18-1075). Proceedings of the 27th International Conference on Computational Linguistics. 2018: 878-891.  
 59. Muis A O, Otani N, Vyas N, et al. [Low-resource Cross-lingual Event Type Detection via Distant Supervision with Minimal Effort](http://www.aclweb.org/anthology/C18-1007). Proceedings of the 27th International Conference on Computational Linguistics. 2018: 70-82.  
 60. Kazeminejad G, Bonial C, Brown S W, et al. [Automatically Extracting Qualia Relations for the Rich Event Ontology](http://www.aclweb.org/anthology/C18-1224). Proceedings of the 27th International Conference on Computational Linguistics. 2018: 2644-2652.  
 61. Liu Z, Mitamura T, Hovy E. [Graph-Based Decoding for Event Sequencing and Coreference Resolution](https://arxiv.org/pdf/1806.05099.pdf). COLING2018.  
 
-* **---关系抽取---** 
+* **---关系抽取 - Relation extraction---** 
 62. Su Y, Liu H, Yavuz S, et al. [Global relation embedding for relation extraction](https://www.aclweb.org/anthology/N18-1075), NAACL2018:820-830.  
 63. Zeng X, He S, Liu K, et al. [Large scaled relation extraction with reinforcement learning](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/download/16257/16125), AAAI2018.  
 64. Liu T, Zhang X, Zhou W, et al. [Neural relation extraction via inner-sentence noise reduction and transfer learning](https://aclweb.org/anthology/D18-1243), EMNLP2018:2195-2204.  
@@ -490,7 +576,7 @@ Proceedings of the 2016 Conference of the North American Chapter of the Associat
 69. Tan Z, Zhao X, Wang W, et al. [Jointly Extracting Multiple Triplets with Multilayer Translation Constraints](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/download/17151/16140). AAAI2018.  
 70. Ryuichi Takanobu, Tianyang Zhang, JieXi Liu, Minlie Huang[A Hierarchical Framework for Relation Extraction with Reinforcement Learning](https://arxiv.org/pdf/1811.03925.pdf), AAAI2019.  
 
-* **---知识存储---** 
+* **---知识存储 - Knowledge storage---** 
 71. Davoudian A, Chen L, Liu M. [A survey on NoSQL stores](https://dl.acm.org/citation.cfm?id=3158661)[J]. ACM Computing Surveys (CSUR), 2018, 51(2): 40.  
 72. Wylot M, Hauswirth M, Cudré-Mauroux P, et al. [RDF data storage and query processing schemes: A survey](https://exascale.info/assets/pdf/wylot2018survey.pdf)[J]. ACM Computing Surveys (CSUR), 2018, 51(4): 84.  
 73. Zeng L, Zou L. [Redesign of the gStore system](https://link.springer.com/article/10.1007/s11704-018-7212-z)[J]. Frontiers of Computer Science, 2018, 12(4): 623-641.  
@@ -498,7 +584,7 @@ Proceedings of the 2016 Conference of the North American Chapter of the Associat
 75. Libkin L, Reutter J L, Soto A, et al. [TriAL: A navigational algebra for RDF triplestores](http://www.research.ed.ac.uk/portal/files/44424184/tripalg_2.pdf)[J]. ACM Transactions on Database Systems (TODS), 2018, 43(1): 5.  
 76. Elzein N M, Majid M A, Hashem I A T, et al. [Managing big RDF data in clouds: Challenges, opportunities, and solutions](https://www.researchgate.net/profile/Ibrar_Yaqoob/publication/323377454_Managing_Big_RDF_Data_in_Clouds_Challenges_Opportunities_and_Solutions/links/5af126810f7e9ba366452ec6/Managing-Big-RDF-Data-in-Clouds-Challenges-Opportunities-and-Solutions.pdf)[J]. Sustainable Cities and Society, 2018, 39: 375-386.  
 
-* **---知识推理---** 
+* **---知识推理 - Knowledge reasoning---** 
 77. Lin, Xi Victoria, Richard Socher, and Caiming Xiong. [Multi-hop knowledge graph reasoning with reward shaping.](https://arxiv.org/pdf/1808.10568.pdf) arXiv preprint arXiv:1808.10568 (2018).  
 78. Zhang, Y., Dai, H., Kozareva, Z., Smola, A. J., & Song, L. (2018, April). [Variational reasoning for question answering with knowledge graph.]((https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/download/16983/16176)) In Thirty-Second AAAI Conference on Artificial Intelligence.  
 79. Gu, L., Xia, Y., Yuan, X., Wang, C., & Jiao, J. (2018). [Research on the model for tobacco disease prevention and control based on case-based reasoning and knowledge graph.](http://journal.pmf.ni.ac.rs/filomat/index.php/filomat/article/download/6806/2760) Filomat, 32(5).  
@@ -506,7 +592,7 @@ Proceedings of the 2016 Conference of the North American Chapter of the Associat
 81. Trivedi, R., Dai, H., Wang, Y., & Song, L. (2017, August). [Know-evolve: Deep temporal reasoning for dynamic knowledge graphs.](https://arxiv.org/pdf/1705.05742) In Proceedings of the 34th International Conference on Machine Learning-Volume 70 (pp. 3462-3471). JMLR. org.  
 82. Hamilton, W., Bajaj, P., Zitnik, M., Jurafsky, D., & Leskovec, J. (2018).[Embedding logical queries on knowledge graphs.](https://papers.nips.cc/paper/7473-embedding-logical-queries-on-knowledge-graphs.pdf) In Advances in Neural Information Processing Systems (pp. 2026-2037).  
 
-* **---实体链接---** 
+* **---实体链接 - Entity link---** 
 83. Sil, A., Kundu, G., Florian, R., & Hamza, W. (2018, April). [Neural cross-lingual entity linking.](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewPDFInterstitial/16501/16101) In Thirty-Second AAAI Conference on Artificial Intelligence.  
 84. Chen, H., Wei, B., Liu, Y., Li, Y., Yu, J., & Zhu, W. (2018). [Bilinear joint learning of word and entity embeddings for Entity Linking.](https://www.sciencedirect.com/science/article/pii/S0925231217318234) Neurocomputing, 294, 12-18.  
 85. Raiman, J. R., & Raiman, O. M. (2018, April). [DeepType: multilingual entity linking by neural type system evolution.](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewPDFInterstitial/17148/16094) In Thirty-Second AAAI Conference on Artificial Intelligence.  
@@ -514,23 +600,23 @@ Proceedings of the 2016 Conference of the North American Chapter of the Associat
 87. Kilias, T., Löser, A., Gers, F. A., Koopmanschap, R., Zhang, Y., & Kersten, M. (2018). [Idel: In-database entity linking with neural embeddings.](https://arxiv.org/pdf/1803.04884) arXiv preprint arXiv:1803.04884.  
 88. Cao, Y., Hou, L., Li, J., & Liu, Z. (2018). [Neural collective entity linking.](https://arxiv.org/pdf/1811.08603) arXiv preprint arXiv:1811.08603.  
 
-* **---知识融合---**  
+* **---知识融合 - Knowledge fusion---**  
 Wang, Zhichun, et al. [Cross-lingual knowledge graph alignment via graph convolutional networks.](https://www.aclweb.org/anthology/D18-1032) Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing. 2018.  
 
-* **---知识补全---**   
+* **---知识补全 - Knowledge completion---**   
 Xiaolan Wang, Xin Luna Dong, Yang Li, Alexandra Meliou. [MIDAS: Finding the right web sources to fill knowledge gaps](https://people.cs.umass.edu/~xlwang/midas-paper.pdf). ICDE2019.  
 
-* **---知识构建---**   
+* **---知识构建 - Knowledge building---**   
 Nguyen D B, Abujabal A, Tran N K, et al. [Query-driven on-the-fly knowledge base construction](http://orbilu.uni.lu/bitstream/10993/34035/1/p66-nguyen.pdf). VLDB2017.  
 
-* **---知识评估---**   
+* **---知识评估 - Knowledge assessment---**   
 Gao J, Li X, Xu Y E, et al. [Efficient knowledge graph accuracy evaluation](https://arxiv.org/pdf/1907.09657). VLDB2019, 12(11): 1679-1691.
 
-* **---知识图谱：综述、概念和发展---**   
+* **---知识图谱：综述、概念和发展 - Knowledge Graph: Overview, Concepts and Development---**   
 Claudio Gutierrez and Juan F. Sequeda. [A Brief History of Knowledge Graph's Main Ideas: A tutorial](http://knowledgegraph.today/paper.html). ISWC2019 tutorial  
 Noy N, Gao Y, Jain A, et al. [Industry-scale knowledge graphs: Lessons and challenges](https://dl.acm.org/doi/pdf/10.1145/3331166). ACM Queue, 2019, 17(2): 48-75.  
 
-# 附录B：其它资源  
+# 附录B：其它资源  - Appendix B: Other Resources
 [Top-level Conference Publications on Knowledge Graph (2018-2020)](https://github.com/wds-seu/Knowledge-Graph-Publications)   
 [Stanford Spring 2020 《Knowledge Graphs》](https://web.stanford.edu/class/cs520/)   
 
